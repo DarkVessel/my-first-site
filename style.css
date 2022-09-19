@@ -2,9 +2,10 @@ body {
   background: linear-gradient(black, black), url(img/sunset.jpg);
   background-size: cover;
   background-blend-mode: saturation;
+  color: white;
 }
 
-#day {
+#page {
   bottom: 0;
   left: 10;
   padding: 10px;
