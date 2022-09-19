@@ -34,8 +34,8 @@ body {
 /* Displaying the page in the lower left corner. */
 #page {
   /* Partially determines the vertical position. */
-  bottom: 0;
-  padding: 10px;
+  bottom: -5px;
+  padding: 0px;
   /* Specifies how the element is positioned in the document.
   -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
   position: fixed;
