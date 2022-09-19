@@ -1,0 +1,20 @@
+body {
+  background: linear-gradient(black, black), url(img/sunset.jpg);
+  background-size: cover;
+  background-blend-mode: saturation;
+}
+
+#day {
+  bottom: 0;
+  left: 10;
+  padding: 10px;
+  position: fixed;
+}
+
+.texts {
+  margin-top: 0px;
+}
+.text {
+  text-align: right;
+  margin-top: 0px;
+}
