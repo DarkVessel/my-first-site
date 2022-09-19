@@ -5,17 +5,19 @@ body {
   color: white;
 }
 
-#page {
+#day {
   bottom: 0;
   left: 10;
   padding: 10px;
   position: fixed;
 }
 
-.texts {
+.text_1 {
   margin-top: 0px;
+  padding: 0px;
 }
-.text {
+
+.abbreviations {
   text-align: right;
   margin-top: 0px;
 }
