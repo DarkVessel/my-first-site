@@ -1,91 +1,45 @@
-* {
-  /* How should the total width and height of an element be calculated.
-  -> https://developer.mozilla.org/ru/docs/Web/CSS/box-sizing */
-  box-sizing: border;
-
-  /* Force white color on all text. */
-  color: #FFFF
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eeeeee;
+    font-weight: bold;
 }
 
-body {
-  margin: 0;
+h2 {
+    font-size: 30px;
 }
 
-.background-image {
-  background-image: linear-gradient(red, orange), url(img/sunset.jpg);
-  /* Crop the background so it looks good on the page. */
-  background-size: cover;
-  
-  /* How the site should be displayed. */
-  display: block;
-  
-  /* Filters. */
-  filter: brightness(50%);
-  -webkit-filter: brightness(50%);
-  -moz-filter: brightness(50%);
-  -o-filter: brightness(50%);
-  -ms-filter: brightness(50%);
-  
-  /* The height of the element. We set it to automatic so that it adapts to the screen. */
-  height: 100%;
-  left: 0;
-  
-  /* Specifies how the element is positioned in the document.
-  -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
-  position: fixed;
-  
-  right: 0;
-  
-  /* Stack order of elements. */
-  z-index: 0;
-
-  background-blend-mode: saturation;
+.image {
+    background-image: url("img/parrot.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    
 }
 
-.content {
-  /* Font. */
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
-  /* The vertical position of the element. */
-  top: 10px;
-  left: 0;
-  position: fixed;
-  margin-left: 0px;
-  margin-right: 0px;
-  right: 0;
-  z-index: 1;
-  padding: 0px;
+.text {
+    border: 3px solid #cccccc;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
 }
 
-/* Site wrapper. */
-.wrapper {
-
-  /* How the site should be displayed. */
-  display: flex;
-
-
-  /* The distribution of elements in space. */
-  justify-content: space-between;
-
-
-  /* Padding from top of element. */
-  margin-top: 20px;
-
-
-  /* Creating inner space around an element.
-  In this way, I made small indents on the sides of the page. */
-  padding: 20px;
-}
-
-/* Displaying the page in the lower left corner. */
-#page {
-
-  /* Partially determines the vertical position. */
-  bottom: -15px;
-
-  padding: 10px;
-
-  /* Specifies how the element is positioned in the document.
-  -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
-  position: fixed;
+.used_materials {
+    border: 3px solid #cccccc;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
 }
