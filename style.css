@@ -1,40 +1,45 @@
 * {
   /* How should the total width and height of an element be calculated.
   -> https://developer.mozilla.org/ru/docs/Web/CSS/box-sizing */
-  box-sizing: border-box;
+  box-sizing: border;
 
   /* Force white color on all text. */
   color: #FFFF
 }
 
-.background-image {
-  background-image: url(img/sunset.jpg);
+body {
+  margin: 0;
+}
 
+.background-image {
+  background-image: linear-gradient(red, orange), url(img/sunset.jpg);
   /* Crop the background so it looks good on the page. */
   background-size: cover;
-
+  
   /* How the site should be displayed. */
   display: block;
-
+  
   /* Filters. */
   filter: brightness(50%);
   -webkit-filter: brightness(50%);
   -moz-filter: brightness(50%);
   -o-filter: brightness(50%);
   -ms-filter: brightness(50%);
-
+  
   /* The height of the element. We set it to automatic so that it adapts to the screen. */
-  height: 800px;
+  height: 100%;
   left: 0;
-
+  
   /* Specifies how the element is positioned in the document.
   -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
   position: fixed;
-
+  
   right: 0;
-
+  
   /* Stack order of elements. */
   z-index: 0;
+
+  background-blend-mode: saturation;
 }
 
 .content {
