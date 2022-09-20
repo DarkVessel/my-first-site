@@ -15,27 +15,27 @@ body {
   background-image: linear-gradient(red, orange), url(../../img/sunset.jpg);
   /* Crop the background so it looks good on the page. */
   background-size: cover;
-  
+
   /* How the site should be displayed. */
   display: block;
-  
+
   /* Filters. */
   filter: brightness(50%);
   -webkit-filter: brightness(50%);
   -moz-filter: brightness(50%);
   -o-filter: brightness(50%);
   -ms-filter: brightness(50%);
-  
+
   /* The height of the element. We set it to automatic so that it adapts to the screen. */
   height: 100%;
   left: 0;
-  
+
   /* Specifies how the element is positioned in the document.
   -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
   position: fixed;
-  
+
   right: 0;
-  
+
   /* Stack order of elements. */
   z-index: 0;
 
@@ -88,4 +88,12 @@ body {
   /* Specifies how the element is positioned in the document.
   -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
   position: fixed;
+}
+
+#icon_home {
+  position: fixed;
+  width: 100px;
+  bottom: 0;
+  right: 0;
+  filter: invert(1);
 }
