@@ -1,0 +1,91 @@
+* {
+  box-sizing: border;
+  color: #FFFF;
+}
+
+body {
+  margin: 0;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.content {
+  /* Font. */
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  /* The vertical position of the element. */
+  top: 10px;
+  left: 0;
+  position: fixed;
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 0;
+  padding: 0px;
+}
+
+.chess-board {
+	border-spacing: 0;
+	border-collapse: collapse;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+  
+  transform: translate(-50%, -50%)
+}
+
+.chess-board th {
+	padding: .5em;
+}
+
+.chess-board td {
+	border: 3px solid #FA8072;
+	width: 5em;
+	height: 5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.chess-board .white {
+	background: white
+}
+
+.chess-board .black {
+	background: black
+}
+
+.background-image {
+  background-image: url(../../img/table.jpg);
+  background-size: cover;
+  display: block;
+
+  /* Filters. */
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 0;
+}
+
+.chess-board {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
