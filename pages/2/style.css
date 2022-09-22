@@ -73,7 +73,7 @@ body {
   z-index: 0;
 }
 
-.chess-board {
+/* .chess-board {
   animation-duration: 1s;
   animation-name: slidein;
 }
@@ -88,4 +88,4 @@ body {
     width: 90%;
   }
 }
-
+ */
