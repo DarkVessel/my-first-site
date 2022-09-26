@@ -17,13 +17,13 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-
+    filter: blur(5px) brightness(50%);
+    -webkit-filter: blur(5px) brightness(50%);
+    -moz-filter: blur(5px) brightness(50%);
+    -o-filter: blur(5px) brightness(50%);
+    -ms-filter: blur(5px) brightness(50%);
 }
+
 
 .text {
     border: 3px solid #cccccc;
@@ -47,4 +47,13 @@ h2 {
 
 a {
   color:aqua
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
 }
