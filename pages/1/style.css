@@ -76,3 +76,26 @@ body {
   In this way, I made small indents on the sides of the page. */
   padding: 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
+abbr {
+  color: chartreuse;
+}
+
+abbr:hover {
+  color: red;
+  cursor: help;
+}
+
+.text {
+  margin: 8px;
+  margin-left: 0px;
+}
+
+.paragraph {
+  margin: 10px;
+  margin-left: 0px;
+}

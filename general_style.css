@@ -15,9 +15,26 @@
   width: 100px;
   bottom: 0;
   right: 0;
+  filter: invert(1) brightness(50%);
+  -webkit-filter: invert(1) brightness(50%);
+  -moz-filter: invert(1) brightness(50%);
+  -o-filter: invert(1) brightness(50%);
+  -ms-filter: invert(1) brightness(50%);
+}
+
+#icon_home:hover {
   filter: invert(1);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
 }
 
 a {
   color: aqua
+}
+
+a:hover {
+  color: rgb(255, 153, 0);
+  text-decoration: underline;
 }
