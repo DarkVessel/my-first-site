@@ -1,6 +1,5 @@
 /* Displaying the page in the lower left corner. */
 #page {
-
   /* Partially determines the vertical position. */
   bottom: -15px;
 
