@@ -1,44 +1,29 @@
-* {
-  box-sizing: border;
-  color: #FFFF;
-}
-
 body {
+  color: white;
   margin: 0;
-	text-align: center;
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
-.content {
-  /* Font. */
+#content {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
-  /* The vertical position of the element. */
+  position: fixed;
   top: 10px;
   left: 0;
-  position: fixed;
-  margin-left: 0px;
-  margin-right: 0px;
   right: 0;
-  padding: 0px;
 }
 
-.chess-board {
-	border-spacing: 0;
+#chess-board {
 	border-collapse: collapse;
 	position: fixed;
 	top: 50%;
 	left: 50%;
-  
   transform: translate(-50%, -50%)
 }
 
-.chess-board th {
+#chess-board th {
 	padding: .5em;
 }
 
-.chess-board td {
+#chess-board td {
 	border: 3px solid #FA8072;
 	width: 5em;
 	height: 5em;
@@ -46,18 +31,17 @@ body {
 	vertical-align: middle;
 }
 
-.chess-board .white {
+#chess-board .white {
 	background: white
 }
 
-.chess-board .black {
+#chess-board .black {
 	background: black
 }
 
-.background-image {
+#background-image {
   background-image: url(../../img/table.jpg);
   background-size: cover;
-  display: block;
 
   /* Filters. */
   filter: brightness(50%);
@@ -70,25 +54,7 @@ body {
   left: 0;
   position: fixed;
   right: 0;
-  z-index: 0;
 }
-
-/* .chess-board {
-  animation-duration: 1s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-top: 100%;
-    width: 300%;
-  }
-
-  to {
-    width: 90%;
-  }
-}
- */
 
 #icon_home:hover {
   filter: invert(1);

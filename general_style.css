@@ -1,32 +1,27 @@
-/* Displaying the page in the lower left corner. */
-#page {
-  /* Partially determines the vertical position. */
-  bottom: -15px;
-
-  padding: 10px;
-
-  /* Specifies how the element is positioned in the document.
-    -> https://developer.mozilla.org/ru/docs/Web/CSS/position */
-  position: fixed;
-}
-
-#icon_home {
-  position: fixed;
-  width: 100px;
-  bottom: 0;
-  right: 0;
-  filter: invert(1) brightness(50%);
-  -webkit-filter: invert(1) brightness(50%);
-  -moz-filter: invert(1) brightness(50%);
-  -o-filter: invert(1) brightness(50%);
-  -ms-filter: invert(1) brightness(50%);
-}
-
 a {
-  color: aqua
+    color: aqua
 }
 
 a:hover {
-  color: rgb(255, 153, 0);
-  text-decoration: underline;
+    color: rgb(255, 153, 0);
+    text-decoration: underline;
+}
+
+/* Displaying the page in the lower left corner. */
+#page {
+    bottom: -15px;
+    padding: 10px;
+    position: fixed;
+}
+
+#icon_home {
+    position: fixed;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    filter: invert(1) brightness(50%);
+    -webkit-filter: invert(1) brightness(50%);
+    -moz-filter: invert(1) brightness(50%);
+    -o-filter: invert(1) brightness(50%);
+    -ms-filter: invert(1) brightness(50%);
 }

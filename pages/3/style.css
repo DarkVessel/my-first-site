@@ -1,75 +1,143 @@
 body {
-  color: #FFFF;
-  margin: 0;
-	text-align: center;
-	border-collapse: collapse;
-	border-spacing: 0;
+    margin: 0;
+    background: black;
+    color: white
 }
 
-.content {
-  /* Font. */
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-
-  /* The vertical position of the element. */
-  top: 10px;
-  left: 0;
-  position: fixed;
-  margin-left: 0px;
-  margin-right: 0px;
-  right: 0;
-  padding: 0px;
+#square {
+    border: 1px solid white;
+    position: absolute;
+    width: 70vw;
+    height: 70vw;
+    top: 50%;
+    left: 50%;
+    padding: 0%;
+    transform: translate(-50%, -50%);
 }
 
-.chess-board {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-  transform: translate(-50%, -50%)
+.cell_white {
+    background-color: white;
+    width: 10%;
+    height: 10%;
+    float: left;
 }
 
-.chess-board th {
-	padding: .5em;
+@media (min-width: 200px) and (min-height: 600px) {
+    #square {
+        width: 60vw;
+        height: 60vw;
+    }
 }
 
-.chess-board td {
-	border: 3px solid #FA8072;
-	width: 5em;
-	height: 5em;
-	text-align: center;
-	vertical-align: middle;
+@media (min-width: 400px) and (min-height: 600px) {
+    #square {
+        width: 70vw;
+        height: 70vw;
+    }
 }
 
-.chess-board .white {
-	background: white
+@media (min-width: 576px) and (min-height: 300px) {
+    #square {
+        width: 38vw;
+        height: 38vw;
+    }
 }
 
-.chess-board .black {
-	background: black
+@media (min-width: 600px) and (min-height: 200px) {
+    #square {
+        width: 30vw;
+        height: 30vw;
+    }
 }
 
-.background-image {
-  background-image: url(../../img/table.jpg);
-  background-size: cover;
-  display: block;
-
-  /* Filters. */
-  filter: brightness(50%);
-  -webkit-filter: brightness(50%);
-  -moz-filter: brightness(50%);
-  -o-filter: brightness(50%);
-  -ms-filter: brightness(50%);
-
-  height: 100%;
-  left: 0;
-  position: fixed;
-  right: 0;
-  z-index: 0;
+@media (min-width: 700px) and (min-height: 700px) {
+    #square {
+        width: 50vw;
+        height: 50vw;
+    }
 }
 
-#icon_home:hover {
-  filter: invert(1);
-  -webkit-filter: invert(1);
-  -moz-filter: invert(1);
-  -o-filter: invert(1);
-  -ms-filter: invert(1);
+@media (min-width: 700px) and (min-height: 800px) {
+    #square {
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 370px) {
+    #square {
+        width: 35vw;
+        height: 35vw;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 500px) {
+    #square {
+        width: 55vw;
+        height: 55vw;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 1000px) {
+    #square {
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 300px) {
+    #square {
+        width: 33vw;
+        height: 33vw;
+    }
+}
+
+@media (min-width: 700px) and (min-height: 500px) {
+    #square {
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+}
+@media (min-width: 900px) and (min-height: 400px) {
+    #square {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (min-width: 900px) and (min-height: 1000px) {
+    #square {
+        width: 70vw;
+        height: 70vw;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 600px) {
+    #square {
+        width: 48vw;
+        height: 48vw;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 500px) {
+    #square {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media (min-width: 3000px) and (min-height: 1400px) {
+    #square {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (min-width: 4000px) and (min-height: 2000px) {
+    #square {
+        width: 37vw;
+        height: 37vw;
+    }
 }
