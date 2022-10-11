@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+}
+
+main h1 {
+    margin-top: 20px;
+}
+
+main p,
+main span {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+main hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.text1 {
+    display: block;
+    margin-right: 70vh;
+}
+
+.red_text {
+    color: red;
+}
+
+.green_text {
+    color: green;
+}
+
+.box {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box div p {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.box div {
+    background-color: aqua;
+    border: 5px solid steelblue;
+    height: 100px;
+    width: 100px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.box div:hover {
+    width: 150px;    
+    height: 150px;
+    opacity: 1;
+}
+
+#article p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#article pre {
+    margin-top: 15px;
+    width: 80%;
+    height: 200px;
+    font-size: 25px;
+    white-space: unset;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 10px;
+    background-color: rgba(0, 255, 255, 0.089);    
+}
+
+.animation_text_zoom {
+    transition: 0.3s;
+}
+
+.animation_text_zoom:hover {
+    font-size: 50px;
+}
+#icon_home:hover {
+    filter: invert(0);
+    -webkit-filter: invert(0);
+    -moz-filter: invert(0);
+    -o-filter: invert(0);
+    -ms-filter: invert(0);
+}

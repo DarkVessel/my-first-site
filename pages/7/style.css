@@ -1,0 +1,52 @@
+.box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box div {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    border: 3px solid black;
+}
+
+.box div .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box div pre {
+    margin-left: 8px;
+    word-wrap: break-all;
+    margin-top: 10px;
+}
+
+.box #poem_1 pre {
+    font-size: 16px;
+}
+
+.box #poem_2 pre {
+    font-size: 14px;
+}
+
+.box #poem_3 pre {
+    font-size: 16px;
+}
+
+.portrait {
+    position: absolute;
+    width: 90px;
+    bottom: 0;
+    right: 0;
+}
+
+#icon_home:hover {
+    filter: invert(0);
+    -webkit-filter: invert(0);
+    -moz-filter: invert(0);
+    -o-filter: invert(0);
+    -ms-filter: invert(0);
+}
